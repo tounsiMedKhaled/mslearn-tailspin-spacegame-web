@@ -1,4 +1,4 @@
-
+[![Build Status](https://ktounsi.visualstudio.com/Space%20Game/_apis/build/status/tounsiMedKhaled.mslearn-tailspin-spacegame-web?branchName=master)](https://ktounsi.visualstudio.com/Space%20Game/_build/latest?definitionId=11&branchName=master)
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
