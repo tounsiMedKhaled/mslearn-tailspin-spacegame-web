@@ -1,5 +1,5 @@
 pool:
-  name: 'MyAgentPool'
+  vmImage: 'Ubuntu-16.04'
   demands:
     - npm
 
