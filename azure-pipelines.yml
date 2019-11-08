@@ -96,7 +96,11 @@ steps:
 
 - task: WhiteSource Bolt@19
   displayName: 'Run WhiteSource Bolt'
-
+- task: dependency-check-build-task@5
+  inputs:
+    projectName: 'space game'
+    scanPath: '*/*.csproj'
+    format: 'HTML'
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
   condition: succeeded()
